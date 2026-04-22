@@ -84,4 +84,9 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+    implementation ("com.google.accompanist:accompanist-permissions:0.36.0")
+
+// Make sure material3 is 1.2.0 or higher:
+    implementation ("androidx.compose.material3:material3:1.3.1")
+
 }
